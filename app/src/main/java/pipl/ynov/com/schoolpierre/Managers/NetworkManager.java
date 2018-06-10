@@ -64,7 +64,16 @@ public class NetworkManager {
 
     public static void createSchool(final School school, final Context context, final IVolleyCallback volleyCallback) {
         RequestQueue queue = Volley.newRequestQueue(context);
-        String url = "http://schoolz-api.herokuapp.com/api/v1/schools";
+        String status = context.getSharedPreferences("pipl.ynov.com.schoolpierre", Context.MODE_PRIVATE).getString("status", "");
+
+        String url = "";
+        if (status.equals("")) {
+            url = "http://schoolz-api.herokuapp.com/api/v1/schools";
+        }
+        else {
+            url = "http://schoolz-api.herokuapp.com/api/v1/schools?status=" + status;
+        }
+
 
         JsonObjectRequest stringRequest = new JsonObjectRequest(Request.Method.POST, url, null,
                 new Response.Listener<JSONObject>() {
