@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.ActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="android:textColor">@color/blackColor</item>
+    </style>
+
+    <style name="AppTheme.WhiteActionBar">
+        <item name="colorPrimary">@color/whiteColor</item>
+        <item name="android:textColor">@color/blackColor</item>
+    </style>
+
+    <style name="AppTheme.GreenActionBar">
+        <item name="colorPrimary">@color/greenColor</item>
+        <item name="colorPrimaryDark">@color/greenColor</item>
+        <item name="android:textColor">@color/blackColor</item>
+    </style>
+
+    <style name="AppTheme.PurpleActionBar">
+        <item name="colorPrimary">@color/purpleColor</item>
+        <item name="colorPrimaryDark">@color/purpleColor</item>
+        <item name="android:textColor">@color/blackColor</item>
+    </style>
+
+    <style name="AppTheme.OrangeActionBar">
+        <item name="colorPrimary">@color/orangeColor</item>
+        <item name="colorPrimaryDark">@color/orangeColor</item>
+        <item name="android:textColor">@color/blackColor</item>
+    </style>
+
+    <style name="AppTheme.YellowActionBar">
+        <item name="colorPrimary">@color/yellowColor</item>
+        <item name="colorPrimaryDark">@color/yellowColor</item>
+        <item name="android:textColor">@color/blackColor</item>
+    </style>
+
+</resources>

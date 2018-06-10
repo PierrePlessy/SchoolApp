@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/buttonCreate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/validateCreateButton"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/blueColor"
+            android:text="Valider"
+            android:textColor="@color/whiteColor" />
+
+        <Button
+            android:id="@+id/cancelCreateButton"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/redColor"
+            android:text="Annuler"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp" />
+
+</LinearLayout>

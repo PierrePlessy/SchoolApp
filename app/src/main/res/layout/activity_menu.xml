@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/mapButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="@color/greenColor"
+            android:padding="10dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@mipmap/mapicone" />
+
+        <ImageButton
+            android:id="@+id/listSchoolButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="@color/orangeColor"
+            android:padding="10dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@mipmap/listeicone" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/createSchoolButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purpleColor"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@mipmap/addicone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/configButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/yellowColor"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@mipmap/configicone" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
